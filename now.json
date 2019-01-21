@@ -1,0 +1,16 @@
+{
+  "name": "Deployment-Express",
+  "version": 2,
+  "public": true,
+  "alias": [
+    "deployment-express.now.sh"
+  ],
+  "env": {},
+  "builds": [{
+    "src": "index.js",
+    "use": "@now/node-server"
+  }],
+  "routes": [
+    { "src": "/(.*)", "dest": "index.js" }
+  ]
+}
