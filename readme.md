@@ -1,3 +1,5 @@
+**The api is live at [https://hellofriends.now.sh/](https://hellofriends.now.sh/)**
+
 - **This is deployment of a express-rest-api using Now v2**
 
 - Important files
